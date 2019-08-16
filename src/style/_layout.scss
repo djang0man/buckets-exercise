@@ -1,0 +1,30 @@
+body {
+  background-color: $color-darkgrey;
+  color: $color-white;
+}
+
+button {
+  &:disabled {
+    background-color: $color-grey;
+    color: $color-lightgrey;
+    cursor: default;
+  }
+}
+
+#root {
+  & > div:first-child {
+    padding: $pad;
+    p {
+      vertical-align: middle;
+    }
+  }
+}
+
+.emoji-regular { font-size: 3em; }
+
+.emoji-large {
+  font-size: 6em;
+  padding: $pad;
+}
+
+.measurements { font-size: 1.5em; }

@@ -1,6 +1,4 @@
-$color-primary: #333;
-
-html, body {
-  color: $color-primary;
-}
+@import 'reset';
+@import 'base';
+@import 'layout';
 
