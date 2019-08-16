@@ -12,11 +12,12 @@ To gain more experience with functional component development and [React Hooks](
 
 setup
 ===
-Issue `npm run start` to spin up a localhost.<br />
-The initial state, bucket capacities, and target volume can all be modified in the `./src/constants` file.
+Issue `npm run watch` to spin up a dev localhost.<br />
+Issue `npm build` followed by `npm run start` to serve a production build.<br />
+Initial state, bucket capacities, and target volume can be modified in the `./src/constants` file.
 
 next steps
 ===
-This was not a test-driven exercise. The next step is to layer in some testing for good practice.
+This was not a test-driven exercise. The next step is to layer in some testing for fun and good practice.
 
 Enjoy!
