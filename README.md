@@ -12,7 +12,7 @@ To gain more experience with functional component development and [React Hooks](
 
 setup
 ===
-Issue `npm run start` to spin up a localhost.
+Issue `npm run start` to spin up a localhost.<br />
 The initial state, bucket capacities, and target volume can all be modified in the `./src/constants` file.
 
 next steps
