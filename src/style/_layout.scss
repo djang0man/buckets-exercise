@@ -20,11 +20,12 @@ button {
   }
 }
 
-.emoji-regular { font-size: 3em; }
+.text-medium { font-size: 1.5em; }
 
-.emoji-large {
+.text-large { font-size: 3em; }
+
+.text-xlarge {
   font-size: 6em;
   padding: $pad;
 }
 
-.measurements { font-size: 1.5em; }

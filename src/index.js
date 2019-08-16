@@ -90,14 +90,14 @@ function Buckets() {
   return (
     <>
       <div>
-        <p className="emoji-regular">🚰 total: { level }</p>
-        <p className="emoji-regular">👍 target: { TARGET_LEVEL }</p>
-        <p className="emoji-regular">🖱️ actions: { clicks }</p>
+        <p className="text-large">👍 target: { TARGET_LEVEL }</p>
+        <p className="text-large">🚰 current: { level }</p>
+        <p className="text-large">🖱️ actions: { clicks }</p>
       </div>
 
       <div>
         {level === TARGET_LEVEL
-          ? <div className="emoji-large">🎉😎</div>
+          ? <div className="text-xlarge">🎉😎</div>
           : buckets.map(bucket => (
             <Bucket
               key={ bucket.id }
@@ -141,7 +141,7 @@ function Bucket(props) {
       >
         Transfer
       </Button>
-      <span className="measurements">{ bucket.level } / { bucket.capacity }</span>
+      <span className="text-medium">{ bucket.level } / { bucket.capacity }</span>
     </div>
   )
 }
