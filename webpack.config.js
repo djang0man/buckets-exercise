@@ -33,7 +33,7 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sourceMap: true, 
-              includePaths: [`${__dirname}/src/style`],
+              includePaths: [`${__dirname}/src/styles`],
             },
           }
         ]

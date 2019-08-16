@@ -1,15 +1,13 @@
 import React, { useState, useEffect, useRef, createContext, useContext } from 'react';
 import ReactDOM from 'react-dom';
-import './style/index.scss';
+import './styles/index.scss';
 
-const CAPACITY_A = 3;
-const CAPACITY_B = 5;
-const TARGET_LEVEL = 4;
-
-const BUCKET_DEFAULTS = [
-  { id: btoa(Math.random()), level: 0, capacity: CAPACITY_A },
-  { id: btoa(Math.random()), level: 0, capacity: CAPACITY_B }
-]
+import {
+  CAPACITY_A,
+  CAPACITY_B,
+  TARGET_LEVEL,
+  BUCKET_DEFAULTS
+} from './constants';
 
 const BucketsContext = createContext();
 
