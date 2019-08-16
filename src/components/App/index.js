@@ -48,8 +48,8 @@ function App() {
     return to.level !== to.capacity;
   }
 
-  function findOtherBucket(a) {
-    return buckets.find(b => b.id !== a.id);
+  function findOtherBucket(bucketA) {
+    return buckets.find(bucketB => bucketB.id !== bucketA.id);
   }
 
   return (

@@ -19,7 +19,7 @@ function Buckets() {
 
   const [level, setLevel] = useState(0);
   useEffect(() => {
-    setLevel(buckets.map(bucket => bucket.level).reduce((a, c) => a + c, 0))
+    setLevel(buckets.map(bucket => bucket.level).reduce((total, current) => total + current, 0))
   }, [buckets]);
 
   return (
