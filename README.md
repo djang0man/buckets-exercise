@@ -1,5 +1,6 @@
 buckets exercise
 ===
+> https://buckets-exercise.herokuapp.com/</br>
 > An interactive take on the classic [water pouring puzzle](https://en.wikipedia.org/wiki/Water_pouring_puzzle).
 
 description
@@ -13,7 +14,7 @@ To gain more experience with functional component development and [React Hooks](
 setup
 ===
 Issue `npm run watch` to spin up a dev localhost.<br />
-Issue `npm build` followed by `npm run start` to serve a production build.<br />
+Issue `npm run build` followed by `npm run start` to serve a production build.<br />
 Initial state, bucket capacities, and target volume can be modified in the `./src/constants` file.
 
 next steps
