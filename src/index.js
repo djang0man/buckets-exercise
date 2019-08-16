@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, createContext, useContext } from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.scss';
+import './styles/main.scss';
 
 import {
   CAPACITY_A,
