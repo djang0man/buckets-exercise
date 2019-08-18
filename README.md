@@ -20,6 +20,6 @@ Initial state, bucket capacities, and target volume can be modified in the `./sr
 
 next steps
 ===
-This was not a test-driven exercise. The next step is to layer in some testing for fun and good practice.
+To layer in some testing for fun and good practice.
 
 Enjoy!
